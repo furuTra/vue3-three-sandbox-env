@@ -17,7 +17,7 @@
 
 	// The optional 'workspaceFolder' property is the path VS Code should open by default when
 	// connected. This is typically a file mount in .devcontainer/docker-compose.yml
-	"workspaceFolder": "/workspace/app",
+	"workspaceFolder": "/workspace/app/vue-story-three",
 
 	// Set *default* container specific settings.json values on container create.
 	"settings": {},
@@ -29,7 +29,8 @@
 		"eg2.vscode-npm-script",
 		"rvest.vs-code-prettier-eslint",
 		"ms-vscode.vscode-typescript-tslint-plugin",
-		"Gruntfuggly.todo-tree"
+		"Gruntfuggly.todo-tree",
+		"mhutchie.git-graph"
 	]
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
