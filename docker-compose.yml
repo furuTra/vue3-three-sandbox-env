@@ -1,0 +1,9 @@
+version: "3"
+services:
+  three:
+    build: ./three
+    container_name: node-16
+    tty: true
+    volumes:
+      - ./app:/usr/src/app
+
